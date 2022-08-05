@@ -15,7 +15,7 @@ class WebView(QWebEngineView):
 class MainDemo(QMainWindow):
 	def __init__(self, *args, **kwargs):
 		super().__init__(*args, **kwargs)
-		self.setWindowTitle('浏览器')
+		self.setWindowTitle('虾滑浏览器')
 		self.setWindowIcon(QIcon('icons/penguin.png'))
 		self.resize(1600,1000)
 		self.show()
